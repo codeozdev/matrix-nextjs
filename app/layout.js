@@ -1,8 +1,7 @@
 import './globals.css'
-import { Orbitron } from 'next/font/google'
-import Navbar from '@/components/Navbar'
+import { Inter } from 'next/font/google'
 
-const inter = Orbitron({ subsets: ['latin'], weight: ['400', '700'] })
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,13 +10,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body className={`${inter.className} bg-[url("/wallpaper.jpg")]  h-full`}>
-        <div className='bg-black/80 h-full text-white'>
-          <Navbar />
-          <main className='px-5'>{children}</main>
-        </div>
-      </body>
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }

@@ -2,28 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-img {
-  aspect-ratio: 1/1;
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
-img {
-  @apply w-full object-cover;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
 }
 
-h1 {
-  @apply text-3xl sm:text-7xl font-bold text-center underline sm:no-underline hover:underline my-7;
-}
-
-h2 {
-  @apply text-sm sm:text-2xl font-semibold text-center;
-}
-
-span {
-  text-shadow:
-    0 0 3px #000,
-    0 0 15px #00ff00,
-    0 0 9px #56b000,
-    0 0 15px #006400,
-    0 0 5px #006400;
-  @apply text-center text-sm tracking-wider;
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
