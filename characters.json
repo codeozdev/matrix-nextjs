@@ -1,0 +1,237 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "name": "Neo",
+      "image": "/neo.jpg",
+      "playedBy": "Keanu Reeves",
+      "gender": "male",
+      "species": "human",
+      "description": "Neo is the main protagonist of The Matrix trilogy and a returning protagonist of The Matrix Resurrections.He is a Redpill Resistance operative of the hovercraft Nebuchadnezzar and is prophesied by The Oracle to be The One - an individual capable of freeing the rest of humanity from their unsuspecting imprisonment within the Matrix. As a former Bluepill, Neo himself was rescued from the Matrix by the Nebuchadnezzar and its crew; and with the support of Morpheus and Trinity, swiftly learns the depths of his own abilities whilst embroiled in the Machine War against the Synthient creators of the Matrix and their many Machines and Agents. Eventually discovering the truth behind the Prophecy, and facing the destruction of both Zion and the Matrix, Neo finds and walks a path to ending the centuries of war in exchange for his life.",
+      "images": {
+        "image1": "/characters/neo/neo1.webp",
+        "image2": "/characters/neo/neo2.webp",
+        "image3": "/characters/neo/neo3.webp",
+        "image4": "/characters/neo/neo4.jpg"
+      },
+      "one": "Tell me, Mr. Anderson... what good is a phone call... if you're unable to speak?",
+      "two": "You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.",
+      "three": "Welcome to the real world.",
+      "four": "We can never see past the choices we don't understand."
+    },
+    {
+      "id": "2",
+      "name": "Trinity",
+      "image": "/trinity.webp",
+      "playedBy": "Carrie-Anne Moss",
+      "gender": "female",
+      "species": "human",
+      "description": "Like the series' other principal characters, Trinity is a computer programmer and a hacker who has escaped from the Matrix, a sophisticated computer program in which most of the human race is imprisoned as virtual slaves. Though few specifics are revealed about her previous life inside the Matrix, it is revealed that Morpheus, one of a number of real-world hovercraft commanders, initially identified her and helped her escape from the program. At the beginning of the series, she is the first mate on Morpheus' Nebuchadnezzar and serves mainly as a go-between for him and the individuals he wishes to free from the Matrix. As the series progresses, her primary importance as a character becomes her close relationship with Neo. She is skilled with computers, at operating vehicles both inside and outside the Matrix, and in martial arts.",
+      "images": {
+        "image1": "/characters/trinity/tr1.jpg",
+        "image2": "/characters/trinity/tr2.webp",
+        "image3": "/characters/trinity/tr3.webp",
+        "image4": "/characters/trinity/tr4.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Morpheus",
+      "image": "/morpheus.webp",
+      "playedBy": "Laurence Fishburne",
+      "gender": "male",
+      "species": "human",
+      "description": "Morpheus is a Zion operative who serves in the city's defense force against attack from the Machines. His hovercraft, the Nebuchadnezzar, has far less armament than its sister craft. As with all hovercraft, the \"Neb\" is equipped with an EMP weapon to disable any sentinels that they encounter.\n\nMorpheus (the name of his persona while a bluepill within the Matrix is unknown) is an even-mannered man with a personality that commands respect in many who encounter him. As a result of his belief in the prophecy, Morpheus devotes \"all of his life\" in search of The One, the destined human who will bring an end to the Machine War.\n\nMorpheus has become a spiritual figure to many citizens of Zion, much to the consternation of others who don't believe in the prophecy, such as the natural-born commander of the Zion defense force, Jason Lock.",
+      "images": {
+        "image1": "/characters/morp/morp1.webp",
+        "image2": "/characters/morp/morp2.jpg",
+        "image3": "/characters/morp/morp3.webp",
+        "image4": "/characters/morp/morp4.png"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Agent Smith",
+      "image": "/smith.webp",
+      "playedBy": "Hugo Weaving",
+      "gender": "male",
+      "species": "program",
+      "description": "Agent Smith is a former Agent of the Matrix. After being initially destroyed by Neo, he became an Exile and manifested as a computer virus with the uncanny ability to copy himself over the minds of Bluepills, Redpills and programs alike. He is the main antagonist of the first three The Matrix films before being resurrected by The Analyst in the The Matrix Resurrections. The resurrected Smith carries strong resentment towards The Analyst and, upon recovery of his memories, pragmatically chooses to let both Neo and Trinity live in favor of prioritizing the downfall of The Analyst.",
+      "images": {
+        "image1": "/characters/agent/agent1.webp",
+        "image2": "/characters/agent/agent2.webp",
+        "image3": "/characters/agent/agent3.webp",
+        "image4": "/characters/agent/agent4.webp"
+      },
+      "one": "No, Lieutenant. Your men are already dead.",
+      "two": "Never send a human to do a Machine's job.",
+      "three": "I'm going to enjoy watching you die, Mr. Anderson.",
+      "four": "Goodbye, Mr. Anderson."
+    },
+    {
+      "id": "5",
+      "name": "The Oracle",
+      "image": "/oracle.jpg",
+      "playedBy": "Gloria Foster",
+      "gender": "female",
+      "species": "program",
+      "description": "The Oracle is a major supporting character in The Matrix franchise. She is a program with such insight into human psychology that she has clairvoyant abilities. She was initially created to interpret aspects of the human psyche and was responsible for the key principles behind the third \"current\" version of the Matrix. After having served her purpose, she went into Exile and aided The Resistance in the Machine War; she ultimately is responsible for ending the war through her manipulation of key members within The Resistance, including Neo.",
+      "images": {
+        "image1": "/characters/oracle/oracle1.jpg",
+        "image2": "/characters/oracle/oracle2.jpg",
+        "image3": "/characters/oracle/oracle3.avif",
+        "image4": "/characters/oracle/oracle4.jpg"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Seraph",
+      "image": "/seraph.png",
+      "playedBy": "Collin Chou",
+      "gender": "male",
+      "species": "program",
+      "description": "It is known that when Seraph came to the Matrix he began to work for The Merovingian. When he was working for The Merovingian, The Oracle approached him and asked him to protect her. Ever since, The Merovingian has seen him as a traitor. At some point in the past, he also eluded and even defeated Agent Smith.\n\nA program that appears as a human of Asian descent, Seraph behaves as a guardian, similar to a computer login screen equipped with a powerful Challenge-Handshake Authentication Protocol; to protect access to more important programming, it challenges anyone for the proper credentials. In this case, Seraph fights the challenger, allowing those with sufficient fighting skill (and the rightful reasons to access) to meet The Oracle.",
+      "images": {
+        "image1": "/characters/serap/serap1.webp",
+        "image2": "/characters/serap/serap2.webp",
+        "image3": "/characters/serap/serap3.webp",
+        "image4": "/characters/serap/serap4.webp"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Niobe",
+      "image": "/niobe.avif",
+      "playedBy": "Jada Pinkett Smith",
+      "gender": "female",
+      "species": "human",
+      "description": "Niobe was once romantically involved with Morpheus, but after he visited the Oracle and dedicated his life to finding the One, they drifted apart. After breaking up with Morpheus, Niobe eventually became involved with Jason Lock. However, she is still in love with Morpheus[2]. During her time with the Resistance, she successfully piloted a hovercraft through mechanical lines (extremely narrow tunnels used by the Machines in the Real World), something that no other member of the Resistance has been able to do",
+      "images": {
+        "image1": "/characters/nio/nio1.webp",
+        "image2": "/characters/nio/nio2.webp",
+        "image3": "/characters/nio/nio3.jpg",
+        "image4": "/characters/nio/nio4.jpg"
+      }
+    },
+    {
+      "id": "8",
+      "name": "The Merovingian",
+      "image": "/merovingian.webp",
+      "playedBy": "Lambert Wilson",
+      "gender": "male",
+      "species": "program",
+      "description": "The Merovingian (sometimes called The Frenchman) is an old program that resides within the Matrix. Self-described as a \"trafficker of information\", The Merovingian behaves much as a leader of a powerful organized crime syndicate. He and his wife Persephone operate a smuggling ring providing a haven for exiled programs in the Matrix. The Merovingian is described as an \"Operating System\" by The Kid in his blog incorporated in The Matrix Online, although this presumably describes his role pre-Exile rather than his current function.",
+      "images": {
+        "image1": "/characters/mero/mero1.webp",
+        "image2": "/characters/mero/mero2.webp",
+        "image3": "/characters/mero/mero3.webp",
+        "image4": "/characters/mero/mero4.jpg"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Persephone",
+      "image": "/persephone.jpg",
+      "playedBy": "Monica Bellucci",
+      "gender": "female",
+      "species": "program",
+      "description": "Persephone and her husband came from an older version of the Matrix and remained in it avoiding deletion and thus becoming exiles. Persephone had been the neglected wife of the Merovingian, who sought temporal company from beautiful patrons of Le Vrai restauran.",
+      "images": {
+        "image1": "/characters/perse/perse1.webp",
+        "image2": "/characters/perse/perse2.webp",
+        "image3": "/characters/perse/perse3.jpg",
+        "image4": "/characters/perse/perse4.jpg"
+      }
+    },
+    {
+      "id": "10",
+      "name": "The Architect",
+      "image": "/architect.jpg",
+      "playedBy": "Helmut Bakaitis",
+      "gender": "male",
+      "species": "program",
+      "description": "The Architect was constructed by other Machines to understand the nature of humans. He created the very first Matrix as a utopia for the humans whose minds inhabited it, to keep them subdued so their body heat could be used as energy by the Machines. However, those human minds rejected this first attempt at a perfect world and so this Matrix crashed. A second attempt added \"vulgarities\" of human nature and a basic cause and effect, but this beta was also a failure.",
+      "images": {
+        "image1": "/characters/arch/arch1.avif",
+        "image2": "/characters/arch/arch2.jpg",
+        "image3": "/characters/arch/arch3.avif",
+        "image4": "/characters/arch/arch4.jpg"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Cypher",
+      "image": "/cypher.avif",
+      "playedBy": "Joe Pantoliano",
+      "gender": "male",
+      "species": "human",
+      "description": "Cypher (born Reagan) was a redpill assigned to the Zion hovercraft Nebuchadnezzar under the command of Morpheus. He also betrayed the crew of the Nebuchadnezzar to aid Agent Smith and help him acquire information about the Zion mainframe. He is the hidden secondary antagonist in The Matrix.",
+      "images": {
+        "image1": "/characters/cypher/cyp1.webp",
+        "image2": "/characters/cypher/cyp2.webp",
+        "image3": "/characters/cypher/cyp3.webp",
+        "image4": "/characters/cypher/cyp4.webp"
+      }
+    },
+    {
+      "id": "12",
+      "name": "The Keymaker",
+      "image": "/keymaker.png",
+      "playedBy": "Randall Duk Kim",
+      "gender": "male",
+      "species": "program",
+      "description": "The Keymaker (sometimes spelled Key Maker) was a program created to open up the door to the Source for The One. In the Sixth Matrix he was kept prisoner in the Chateau of the Merovingian, during which time he saved Niobe and Ghost from an Agent. Morpheus, Neo and Trinity, with the help of Persephone, manage to free the Keymaker.",
+      "images": {
+        "image1": "/characters/key/key1.jpg",
+        "image2": "/characters/key/key2.png",
+        "image3": "/characters/key/key3.webp",
+        "image4": "/characters/key/key4.jpg"
+      }
+    },
+    {
+      "id": "13",
+      "name": "The Twins",
+      "image": "/twin.avif",
+      "playedBy": "Adrian & Neil",
+      "gender": "male",
+      "species": "program",
+      "description": "The Twins are two of The Merovingian's henchmen in The Matrix film trilogy, originating from earlier attempts at creating a viable version of the Matrix. It is unknown why The Twins became Exiles but their existence and status as Exiles are quite known to Agents who waste no time attacking them while going after The Keymaker during the Freeway Chase.",
+      "images": {
+        "image1": "/characters/twins/twins1.jpg",
+        "image2": "/characters/twins/twins2.jpg",
+        "image3": "/characters/twins/twins3.jpg",
+        "image4": "/characters/twins/twins4.jpg"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Mifune",
+      "image": "/mifune.webp",
+      "playedBy": "Nathaniel Lees",
+      "gender": "male",
+      "species": "human",
+      "description": "When Kid told Mifune he might not be able to carry out his request because he never finished the training exercise, Mifune reassured him by saying that he never completed the training either before succumbing to his wounds. Using Mifune's APU, Kid reached the counterweights to Gate 3, and after being saved by Zee, he manages to fulfil Mifune's wish.",
+      "images": {
+        "image1": "/characters/mif/mif1.webp",
+        "image2": "/characters/mif/mif2.jpg",
+        "image3": "/characters/mif/mif3.gif",
+        "image4": "/characters/mif/mif4.jpg"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Roland",`
+      "image": "/roland.webp",
+      "playedBy": "David Roberts",
+      "gender": "male",
+      "species": "human",
+      "description": "Roland was the hard-boiled veteran captain of the Mjolnir during the Sixth Matrix Resistance, who was skeptical of Neo and the Prophecy. When Commander Jason Lock was lost, believed dead, at the start of the Second Machine War, Roland was promoted to the role, which he held even after Lock's subsequent return to Zion by the Council's decision. Sixty years later, his granddaughter Ellster served alongside Neo and revealed that privately, Roland was grateful to Neo and felt like Neo had freed him for a second time.",
+      "images": {
+        "image1": "/characters/ro/ro1.jpg",
+        "image2": "/characters/ro/ro2.webp",
+        "image3": "/characters/ro/ro3.jpg",
+        "image4": "/characters/ro/ro4.webp"
+      }
+    }
+  ]
+}
