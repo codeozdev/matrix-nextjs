@@ -33,7 +33,7 @@ export default function Home() {
             <p>
               <Link href={`/characters/8`} className='text-green-500 font-bold'>
                 The Merovingian
-              </Link>{' '}
+              </Link>
               (sometimes called The Frenchman) is an old program that resides
               within the Matrix. Self-described as a &ldquo;trafficker of
               information&ldquo;, The Merovingian behaves much as a leader of a
