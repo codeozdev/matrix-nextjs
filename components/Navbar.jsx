@@ -5,7 +5,7 @@ import Music from '@/components/Music'
 export default function Navbar() {
   return (
     <PaddingContainer>
-      <nav className='text-lg font-bold flex items-center justify-between w-full'>
+      <nav className='text-xs sm:text-lg font-bold flex items-center justify-between w-full'>
         <ul className='flex gap-5 justify-center items-center w-full'>
           <li className='hover:text-green-500'>
             <Link href='/'>Home</Link>
@@ -15,6 +15,9 @@ export default function Navbar() {
           </li>
           <li className='hover:text-green-500'>
             <Link href='/films'>Films</Link>
+          </li>
+          <li className='hover:text-green-500'>
+            <Link href='/locations'>Locations</Link>
           </li>
         </ul>
         <Music />

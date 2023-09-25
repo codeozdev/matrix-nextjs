@@ -7,8 +7,8 @@ export default function Films() {
 
   return (
     <div className='w-full h-full pb-10 sm:pb-0'>
-      <h1>Films</h1>
-      <div className='grid grid-cols-1 sm:grid-cols-4 place-items-center sm:h-[calc(100vh-196px)] gap-10'>
+      <h1>The Matrix Franchise</h1>
+      <div className='grid grid-cols-1 sm:grid-cols-4 place-items-center sm:h-[calc(100vh-257px)] gap-10 sm:pb-20'>
         {films.map((film) => (
           <Link
             href={`/films/${film.id}`}
@@ -18,8 +18,8 @@ export default function Films() {
             <Image
               src={film.image}
               alt={film.title}
-              width={800}
-              height={800}
+              width={1000}
+              height={1000}
               quality={100}
               className='object-contain'
               priority={true}

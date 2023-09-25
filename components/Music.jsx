@@ -34,7 +34,7 @@ function MusicPlayer() {
   }
 
   return (
-    <div>
+    <div className='animate-pulse'>
       <audio ref={audioRef} src='/music/music.mp3' />
       {isPlaying ? (
         <button onClick={stopAudio}>
