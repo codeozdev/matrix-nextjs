@@ -27,6 +27,7 @@ export default function Characters() {
               height={800}
               quality={100}
               priority={true}
+              blurDataURL='/spinner.svg'
             />
             <div className='space-y-1 flex flex-col sm:items-center my-2 text-xs sm:text-base font-bold'>
               <div className='flex items-center text-[10px] sm:text-base w-[165px] sm:w-fit truncate  gap-2 text-green-500 sm:tracking-widest'>

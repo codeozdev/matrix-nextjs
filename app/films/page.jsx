@@ -23,6 +23,7 @@ export default function Films() {
               quality={100}
               className='object-contain'
               priority={true}
+              blurDataURL='/spinner.svg'
             />
             <div className='space-y-1 flex flex-col items-center my-2 text-xs sm:text-base font-bold p-2'>
               <div className='flex gap-2 text-green-500'>

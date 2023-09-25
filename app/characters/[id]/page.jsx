@@ -34,6 +34,7 @@ export default function Character({ params }) {
                 height={1000}
                 priority={true}
                 quality={100}
+                blurDataURL='/spinner.svg'
               />
               <span>{character.one}</span>
             </div>
@@ -46,6 +47,7 @@ export default function Character({ params }) {
                 height={1000}
                 priority={true}
                 quality={100}
+                blurDataURL='/spinner.svg'
               />
 
               <span>{character.two}</span>
@@ -59,6 +61,7 @@ export default function Character({ params }) {
                 height={1000}
                 priority={true}
                 quality={100}
+                blurDataURL='/spinner.svg'
               />
 
               <span>{character.three}</span>
@@ -72,6 +75,7 @@ export default function Character({ params }) {
                 height={1000}
                 priority={true}
                 quality={100}
+                blurDataURL='/spinner.svg'
               />
               <span>{character.four}</span>
             </div>

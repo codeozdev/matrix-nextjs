@@ -32,6 +32,7 @@ export default function Character({ params }) {
                 height={1000}
                 priority={true}
                 quality={100}
+                blurDataURL='/spinner.svg'
               />
             </div>
 
@@ -43,6 +44,7 @@ export default function Character({ params }) {
                 height={1000}
                 priority={true}
                 quality={100}
+                blurDataURL='/spinner.svg'
               />
             </div>
 
@@ -54,6 +56,7 @@ export default function Character({ params }) {
                 height={1000}
                 priority={true}
                 quality={100}
+                blurDataURL='/spinner.svg'
               />
             </div>
           </div>
