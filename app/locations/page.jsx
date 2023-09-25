@@ -23,6 +23,7 @@ export default function Films() {
               quality={100}
               className='object-cover'
               priority={true}
+              placeholder='blur'
               blurDataURL='/spinner.svg'
             />
           </Link>
