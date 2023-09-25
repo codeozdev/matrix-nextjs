@@ -25,7 +25,6 @@ export default function Characters() {
               alt={character.name}
               width={800}
               height={800}
-              property={true}
               quality={100}
             />
             <div className='space-y-1 flex flex-col items-center my-2 text-xs sm:text-base font-bold'>

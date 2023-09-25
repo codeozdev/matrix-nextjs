@@ -1,0 +1,44 @@
+{
+  "films": [
+    {
+      "id": "1",
+      "title": "The Matrix",
+      "year": "March 31, 1999",
+      "butget": "$63 million",
+      "box_office": "$467 million",
+      "rating": 8.7,
+      "description": "The Matrix is a 1999 science fiction action film written and directed by the Wachowskis, starring Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Joe Pantoliano, and Hugo Weaving. It was first released in the USA on March 31, 1999, and is the first entry in The Matrix series of films, comics, video games and animation. The film received four Academy Awards in the technical categories.\n\nThe film describes a future in which reality perceived by humans is actually the Matrix, a simulated reality created by sentient Machines in order to pacify and subdue the human population while their bodies' heat and electrical activity are used as an energy source. Upon learning this, computer programmer \"Neo\" is drawn into a rebellion against the Machines. The film contains numerous references to the cyberpunk and hacker subcultures; philosophical and religious ideas; and homages to Alice's Adventures in Wonderland, Hong Kong action movies, Spaghetti Westerns and Japanese animation.",
+      "image": "/films/film1/wal.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The Matrix Reloaded",
+      "year": "May 15, 2003",
+      "butget": "$150 million",
+      "box_office": "$741 million",
+      "rating": 7.2,
+      "description": "The Matrix Reloaded is the second installment in The Matrix franchise, written and directed by the Wachowskis. It premiered on May 7, 2003, in Westwood, Los Angeles, California, and went on general release by Warner Bros. in North American theaters on May 15, 2003, and around the world during the latter half of that month.\n\nThe video game Enter the Matrix, which was released May 15, and a collection of nine animated shorts, the Animatrix, which was released on June 3, supported and expanded the storyline of the movie. The Matrix Revolutions, which completes the story, was released six months after Reloaded in November 2003.",
+      "image": "/films/film2/wal.jpg"
+    },
+    {
+      "id": "3",
+      "title": "The Matrix Revolutions",
+      "year": "November 5, 2003",
+      "butget": "$150 million",
+      "box_office": "$427 million",
+      "rating": 6.8,
+      "description": "he Matrix Revolutions is the third film in The Matrix series of films. The film, a combination of philosophy and action like its predecessors, sought to conclude the questions raised in the preceding film, The Matrix Reloaded. The film was written and directed by the Wachowskis. It was released simultaneously in sixty countries on November 5, 2003. Despite being the final film, the Matrix storyline was continued in The Matrix Online.\n\nIt was the first live-action film to be released simultaneously in regular and IMAX theaters. The Wachowskis were present in Tokyo at the opening of the movie, as were stars Keanu Reeves and Jada Pinkett Smith.",
+      "image": "/films/film3/wal.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Matrix Resurrections",
+      "year": "December 22, 2021",
+      "butget": "$190 million",
+      "box_office": "$159 million",
+      "rating": 5.7,
+      "description": "The Matrix Resurrections is the fourth installment in The Matrix franchise, co-written and directed by Lana Wachowski. It had its U.S. premiere on December 18, 2021, in San Francisco, California, and was generally released by Warner Bros. in North American theaters on December 22, 2021. The movie was released onto HBO Max for a one-month period alongside theatre.\n\nWritten by Lana Wachowski, Aleksandar Hemon, and David Mitchell, the film was released on December 22, 2021. The title of the film was revealed on August 25, 2021.",
+      "image": "/films/film4/wal.jpg"
+    }
+  ]
+}
