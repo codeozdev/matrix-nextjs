@@ -1,0 +1,40 @@
+{
+  "locations": [
+    {
+      "id": "1",
+      "name": "Zion",
+      "description": "Zion is the last, only known human city on the planet Earth. The city is the launching point for The Resistance against the Machines that threaten their freedom.\n\nZion, a city of over 250,000 humans, is actually a massive series of caverns deep under the ruined planet's surface, close to the planet's core, for warmth, power, and protection. Based on the understanding of the human government living there, the location of Zion is unknown to the Machines, until the Machines found a way into it through the Dock.",
+      "quote": "The last human city, the only place we have left.",
+      "image": "/locations/zion/wal.jpg",
+      "images": {
+        "image1": "/locations/zion/1.webp",
+        "image2": "/locations/zion/3.jpg",
+        "image3": "/locations/zion/2.webp"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Power Plant",
+      "description": "Power Plants (as referred to by the Resistance) are a series of gigantic, skyscraper-like, cylindrical towers located near the megacity of 01. As the name suggests, power plants generate electrical energy for 01's inhabitants, the Machines. Each cylindrical tower contains up to hundreds of thousands of pods. Inside each pod is a human, connected through a series of grafts, plugs, and wires into the circuitry of the pod. Each human's mind exists in a shared dream—a neural-interactive virtual world known as the Matrix, fully convinced in almost all cases that they are alive, awake, and living on Earth around the turn of the 21st century.",
+      "quote": "There are fields, Neo, endless fields where human beings are no longer born...we are grown.",
+      "image": "/locations/power/wal.jpg",
+      "images": {
+        "image1": "/locations/power/1.jpg",
+        "image2": "/locations/power/2.png",
+        "image3": "/locations/power/3.webp"
+      }
+    },
+    {
+      "id": "3",
+      "name": "IO",
+      "description": "Zion is the last, only known human city on the planet Earth. The city is the launching point for The Resistance against the Machines that threaten their freedom.\n\nZion, a city of over 250,000 humans, is actually a massive series of caverns deep under the ruined planet's surface, close to the planet's core, for warmth, power, and protection. Based on the understanding of the human government living there, the location of Zion is unknown to the Machines, until the Machines found a way into it through the Dock.",
+      "quote": "Zion was stuck in the past. Stuck in war. Stuck in a Matrix of its own. They believed that it had to be us OR them. This city was built by us AND them.",
+      "image": "/locations/io/wal.webp",
+      "images": {
+        "image1": "/locations/io/1.webp",
+        "image2": "/locations/io/2.jpg",
+        "image3": "/locations/io/3.jpg"
+      }
+    }
+  ]
+}

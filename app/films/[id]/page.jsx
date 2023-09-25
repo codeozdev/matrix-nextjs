@@ -11,9 +11,7 @@ export default function Film({ params }) {
     <div className='w-full sm:h-[calc(100vh-77px)] flex flex-col items-center justify-center pb-10 sm:pb-32'>
       <h1>{film.title}</h1>
       <div className='flex flex-col items-center justify-center  gap-10 '>
-        <p className='sm:w-1/3 text-neutral-200 shadow-lg text-base sm:text-lg sm:tracking-widest text-center'>
-          {film.description}
-        </p>
+        <p className='sm:w-1/3'>{film.description}</p>
         <video
           autoPlay
           loop
