@@ -11,7 +11,7 @@ export default function Home() {
           <p>
             The Matrix saga tells of a war between the Resistance and a race of
             sentient Machines who imprisoned humanity within a virtual reality
-            known as the Matrix. The films center on
+            known as the Matrix. The films center on{' '}
             <Link href={`/characters/1`} className='text-green-500 font-bold'>
               The One
             </Link>
