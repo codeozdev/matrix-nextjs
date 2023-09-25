@@ -9,7 +9,7 @@ export default function Character({ params }) {
   const character = characters.find((character) => character.id === id)
 
   return (
-    <div className='w-full sm:h-[calc(100vh-68px)] flex flex-col items-center justify-center pb-10 sm:pb-32'>
+    <div className='w-full sm:h-[calc(100vh-77px)] flex flex-col items-center justify-center pb-10 sm:pb-32'>
       <h1>{character.name}</h1>
 
       <div className='flex flex-col gap-5 sm:gap-10'>
