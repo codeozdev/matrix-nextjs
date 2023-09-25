@@ -39,7 +39,7 @@ export default function Home() {
               information&ldquo;, The Merovingian behaves much as a leader of a
               powerful organized crime syndicate. He and his wife Persephone
               operate a smuggling ring providing a haven for exiled programs in
-              the Matrix. The Merovingian is described as an{' '}
+              the Matrix. The Merovingian is described as an
               <b>&ldquo;Operating System&ldquo;</b> by The Kid in his blog
               incorporated in The Matrix Online, although this presumably
               describes his role pre-Exile rather than his current function.
