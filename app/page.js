@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <PaddingContainer>
       <main className='flex flex-col items-center justify-center w-full h-full space-y-10 sm:h-[calc(100vh-117px)]'>
-        <h1>THE MATRIX</h1>
+        <h1 className='mt-0'>THE MATRIX</h1>
         <div className='space-y-3'>
           <h3>Purpose</h3>
           <p>
