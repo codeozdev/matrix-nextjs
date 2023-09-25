@@ -35,14 +35,14 @@ export default function Home() {
                 The Merovingian
               </Link>{' '}
               (sometimes called The Frenchman) is an old program that resides
-              within the Matrix. Self-described as a "trafficker of
-              information", The Merovingian behaves much as a leader of a
+              within the Matrix. Self-described as a &ldquo;trafficker of
+              information&ldquo;, The Merovingian behaves much as a leader of a
               powerful organized crime syndicate. He and his wife Persephone
               operate a smuggling ring providing a haven for exiled programs in
-              the Matrix. The Merovingian is described as an "Operating System"
-              by The Kid in his blog incorporated in The Matrix Online, although
-              this presumably describes his role pre-Exile rather than his
-              current function.
+              the Matrix. The Merovingian is described as an{' '}
+              <b>&ldquo;Operating System&ldquo;</b> by The Kid in his blog
+              incorporated in The Matrix Online, although this presumably
+              describes his role pre-Exile rather than his current function.
             </p>
           </div>
         </div>

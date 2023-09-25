@@ -26,5 +26,3 @@ export default function Film({ params }) {
     </div>
   )
 }
-
-// <p className='text-neutral-200 shadow-lg text-base sm:text-lg'>
