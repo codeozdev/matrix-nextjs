@@ -26,16 +26,20 @@ export default function Characters() {
               width={800}
               height={800}
               quality={100}
+              priority={true}
             />
-            <div className='space-y-1 flex flex-col items-center my-2 text-xs sm:text-base font-bold'>
-              <div className='sm:flex gap-2 text-green-500'>
-                Played By: <p className='text-white '>{character.playedBy}</p>
+            <div className='space-y-1 flex flex-col sm:items-center my-2 text-xs sm:text-base font-bold'>
+              <div className='flex items-center text-[10px] sm:text-base w-[165px] sm:w-fit truncate  gap-2 text-green-500 sm:tracking-widest'>
+                Played By:
+                <p className='text-white text-[10px] sm:text-base'>
+                  {character.playedBy}
+                </p>
               </div>
-              <div className='flex gap-2 text-green-500'>
-                Gender: <p className='text-white'>{character.gender}</p>
-              </div>
-              <div className='flex gap-2 text-green-500'>
+              <div className='flex items-center gap-2 text-green-500 sm:tracking-widest'>
                 Species: <p className='text-white'>{character.species}</p>
+              </div>
+              <div className='flex items-center gap-2 text-green-500 sm:tracking-widest'>
+                Gender: <p className='text-white'>{character.gender}</p>
               </div>
             </div>
           </Link>

@@ -11,7 +11,7 @@ img {
 }
 
 h1 {
-  @apply text-3xl sm:text-7xl font-bold text-center underline sm:no-underline hover:underline my-7;
+  @apply text-3xl sm:text-7xl font-bold text-center underline sm:no-underline hover:underline my-7 tracking-widest;
 }
 
 h2 {

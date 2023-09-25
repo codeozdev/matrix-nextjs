@@ -17,9 +17,9 @@ export default function Character({ params }) {
           <h3 className='w-full mb-2 sm:mb-5 text-lg sm:text-2xl font-bold text-green-500'>
             Bio
           </h3>
-          <div className='text-neutral-200 shadow-lg text-base sm:text-lg'>
+          <p className='text-neutral-200 shadow-lg text-base sm:text-lg sm:tracking-widest'>
             {character.description}
-          </div>
+          </p>
         </div>
 
         <div className='w-4/5 mx-auto'>
@@ -29,51 +29,53 @@ export default function Character({ params }) {
           <div>
             <div className='grid grid-cols-1 sm:grid-cols-4 gap-10 sm:gap-52'>
               <div className='flex flex-col gap-5 '>
-                <div className=''>
-                  <Image
-                    src={character.images.image1}
-                    alt='img'
-                    width={500}
-                    height={500}
-                  />
-                </div>
-                <span>{character.one}</span>
+                <Image
+                  src={character.images.image1}
+                  alt='img'
+                  width={500}
+                  height={500}
+                />
+                <span className='sm:text-lg tracking-widest'>
+                  {character.one}
+                </span>
               </div>
 
               <div className='flex flex-col gap-5 '>
-                <div className=''>
-                  <Image
-                    src={character.images.image2}
-                    alt='img'
-                    width={500}
-                    height={500}
-                  />
-                </div>
-                <span>{character.two}</span>
+                <Image
+                  src={character.images.image2}
+                  alt='img'
+                  width={500}
+                  height={500}
+                />
+
+                <span className='sm:text-lg tracking-widest'>
+                  {character.two}
+                </span>
               </div>
 
               <div className='flex flex-col gap-5 '>
-                <div className=''>
-                  <Image
-                    src={character.images.image3}
-                    alt='img'
-                    width={500}
-                    height={500}
-                  />
-                </div>
-                <span>{character.three}</span>
+                <Image
+                  src={character.images.image3}
+                  alt='img'
+                  width={500}
+                  height={500}
+                />
+
+                <span className='sm:text-lg tracking-widest'>
+                  {character.three}
+                </span>
               </div>
 
               <div className='flex flex-col gap-5 '>
-                <div className=''>
-                  <Image
-                    src={character.images.image4}
-                    alt='img'
-                    width={500}
-                    height={500}
-                  />
-                </div>
-                <span>{character.four}</span>
+                <Image
+                  src={character.images.image4}
+                  alt='img'
+                  width={500}
+                  height={500}
+                />
+                <span className='sm:text-lg tracking-widest'>
+                  {character.four}
+                </span>
               </div>
             </div>
           </div>

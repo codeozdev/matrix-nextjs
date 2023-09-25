@@ -22,6 +22,7 @@ export default function Films() {
               height={800}
               quality={100}
               className='object-contain'
+              priority={true}
             />
             <div className='space-y-1 flex flex-col items-center my-2 text-xs sm:text-base font-bold p-2'>
               <div className='flex gap-2 text-green-500'>
