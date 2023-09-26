@@ -35,3 +35,7 @@ span {
     0 0 5px #006400;
   @apply text-center text-sm tracking-wider sm:text-lg;
 }
+
+input {
+    @apply p-1 sm:p-3 sm:font-bold text-gray-700 placeholder-green-600 border outline-0  sm:w-1/4;
+}

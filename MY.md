@@ -1,0 +1,1 @@
+Mobil button kisminda bir linke gittikten sonra kapanmasi icin ayri bir onClick fonksiyonu olusturduk
