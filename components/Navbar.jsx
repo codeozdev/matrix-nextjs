@@ -2,6 +2,8 @@ import Link from 'next/link'
 import PaddingContainer from '@/components/layout/padding-container'
 import Music from '@/components/Music'
 import MobileMenu from '@/components/MobileMenu'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 export default function Navbar() {
   return (
@@ -31,6 +33,18 @@ export default function Navbar() {
           <Music />
         </div>
       </nav>
+      <ToastContainer
+        position='bottom-center'
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme='dark'
+      />
     </PaddingContainer>
   )
 }
