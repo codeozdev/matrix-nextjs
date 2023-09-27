@@ -38,7 +38,7 @@ export default function Contact() {
   }
 
   return (
-    <div className='w-full h-[calc(100vh-74px)] sm:h-[calc(100vh-77px)] sm:pb-32 flex'>
+    <div className='w-full h-[calc(100vh-97px)] sm:h-[calc(100vh-77px)] sm:pb-32 flex flex-col'>
       <form
         className='flex flex-col items-center justify-center gap-5 w-full h-full'
         onSubmit={handleSubmit}>

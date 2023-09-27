@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import PaddingContainer from '@/components/layout/padding-container'
 import Music from '@/components/Music'
@@ -5,7 +7,11 @@ import MobileMenu from '@/components/MobileMenu'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
+import { useSession, signIn, signOut } from 'next-auth/react'
+
 export default function Navbar() {
+  const { data: session, status } = useSession()
+
   return (
     <PaddingContainer>
       <nav className='text-xs sm:text-lg font-bold flex justify-between w-full'>
@@ -25,6 +31,16 @@ export default function Navbar() {
           <li className='hover:text-green-500 hidden sm:flex'>
             <Link href='/contact'>Contact</Link>
           </li>
+          {status === 'authenticated' ? (
+            <button onClick={() => signOut()}>Sign Out</button>
+          ) : (
+            <button onClick={() => signIn()}>Sign In</button>
+          )}
+          {session && (
+            <li className='hover:text-green-500'>
+              <Link href='/profile'>Profile</Link>
+            </li>
+          )}
         </ul>
 
         {/*Mobile*/}
