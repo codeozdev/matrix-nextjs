@@ -88,12 +88,12 @@ export default function RegisterForm() {
         />
         {showPassword ? (
           <AiFillEyeInvisible
-            className='absolute right-3 top-[440px] sm:top-[635px] text-green-500 text-xl cursor-pointer'
+            className='absolute right-3 top-[440px] sm:top-[655px] text-green-500 text-xl cursor-pointer'
             onClick={() => setShowPassword((prevState) => !prevState)}
           />
         ) : (
           <AiFillEye
-            className='absolute right-3 top-[440px] sm:top-[635px] text-green-500 text-xl cursor-pointer'
+            className='absolute right-3 top-[440px] sm:top-[655px] text-green-500 text-xl cursor-pointer'
             onClick={() => setShowPassword((prevState) => !prevState)}
           />
         )}

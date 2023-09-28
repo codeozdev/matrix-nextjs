@@ -6,8 +6,8 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { toast } from 'react-toastify'
 import { signIn } from 'next-auth/react'
-import { FcGoogle } from 'react-icons/fc'
 import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai'
+import GoogleBtn from '@/components/GoogleBtn'
 
 export default function LoginForm() {
   const [email, setEmail] = useState('')
@@ -41,7 +41,7 @@ export default function LoginForm() {
   }
 
   return (
-    <div className='w-full h-[calc(100vh-97px)] sm:h-[calc(100vh-77px)] sm:pb-32 flex flex-col'>
+    <div className='w-full h-[calc(100vh-97px)] sm:h-[calc(100vh-77px)] sm:pb-32 flex flex-col items-center'>
       <form
         className='flex flex-col items-center justify-center h-full gap-3 sm:w-1/3 mx-auto relative'
         onSubmit={handleSubmit}>
@@ -59,33 +59,30 @@ export default function LoginForm() {
           type={showPassword ? 'text' : 'password'}
           placeholder='Password'
           name='password'
-          className='w-full'
+          className='w-full relative'
           autoComplete='on'
           onChange={(e) => setPassword(e.target.value)}
           value={password}
         />
         {showPassword ? (
           <AiFillEyeInvisible
-            className='absolute right-3 top-[410px] sm:top-[600px] text-green-500 text-xl cursor-pointer'
+            className='absolute right-3 top-[410px] sm:top-[620px] text-green-500 text-xl cursor-pointer'
             onClick={() => setShowPassword((prevState) => !prevState)}
           />
         ) : (
           <AiFillEye
-            className='absolute right-3 top-[410px] sm:top-[600px] text-green-500 text-xl cursor-pointer'
+            className='absolute right-3 top-[410px] sm:top-[620px] text-green-500 text-xl cursor-pointer'
             onClick={() => setShowPassword((prevState) => !prevState)}
           />
         )}
         <div className='flex items-center'>
-          <button className='bg-green-600 text-white font-bold cursor-pointer px-6 py-2'>
+          <button
+            className='bg-green-600 text-white font-bold cursor-pointer px-6 py-2'
+            type='submit'>
             Login
           </button>
-          <Link
-            href='/api/auth/signin'
-            className=' font-bold cursor-pointer px-6 py-2'>
-            <FcGoogle size={35} />
-          </Link>
+          <GoogleBtn />
         </div>
-
         <Link href={'/register'} className='text-sm mt-3'>
           Already have an account? <span className='underline'> Register</span>
         </Link>

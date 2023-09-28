@@ -5,4 +5,6 @@ Oturum kapadigimizda anasayfaya gitmeyi eklememiz lazim
 
 POST olaylarinda localhost3000 neden yaziyoruz bazen yazmiyoruz oluyor
 
-env secret sifrelerini vercele kaydetmemiz gerekiyor
+google ile giris yaptigimizda profile sayfasina yonlendiriyor onu bul
+
+nextauth error kodlari neler onlari bilmedigimiz icin kullaniciya bilgi veremiyoruz

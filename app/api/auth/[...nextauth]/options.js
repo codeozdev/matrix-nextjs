@@ -42,9 +42,9 @@ export const options = {
     strategy: 'jwt',
   },
   secret: process.env.SECRET,
-  // pages: {
-  //   signIn: '/login',
-  // },
+  pages: {
+    signIn: '/login',
+  },
   callbacks: {
     async signIn({ user, account }) {
       if (account.provider === 'google') {
