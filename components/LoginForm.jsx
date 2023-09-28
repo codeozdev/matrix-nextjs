@@ -30,11 +30,11 @@ export default function LoginForm() {
       })
 
       if (res.error) {
-        toast.error(res.error)
+        return toast.error("Account doesn't exist")
+      } else {
+        router.refresh()
+        router.push('/')
       }
-
-      router.refresh()
-      router.push('/')
     } catch (error) {
       toast.error(error.response.data)
     }
@@ -66,12 +66,12 @@ export default function LoginForm() {
         />
         {showPassword ? (
           <AiFillEyeInvisible
-            className='absolute right-3 top-[410px] sm:top-[580px] text-green-500 text-xl cursor-pointer'
+            className='absolute right-3 top-[410px] sm:top-[600px] text-green-500 text-xl cursor-pointer'
             onClick={() => setShowPassword((prevState) => !prevState)}
           />
         ) : (
           <AiFillEye
-            className='absolute right-3 top-[410px] sm:top-[580px] text-green-500 text-xl cursor-pointer'
+            className='absolute right-3 top-[410px] sm:top-[600px] text-green-500 text-xl cursor-pointer'
             onClick={() => setShowPassword((prevState) => !prevState)}
           />
         )}
@@ -82,7 +82,7 @@ export default function LoginForm() {
           <Link
             href='/api/auth/signin'
             className=' font-bold cursor-pointer px-6 py-2'>
-            <FcGoogle className='' size={35} />
+            <FcGoogle size={35} />
           </Link>
         </div>
 

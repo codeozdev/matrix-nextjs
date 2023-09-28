@@ -65,15 +65,17 @@ export default function RegisterForm() {
           autoComplete='on'
           onChange={(e) => setName(e.target.value)}
           value={name}
+          required={true}
         />
         <input
-          type='text'
+          type='email'
           placeholder='Email'
           name='email'
           className='w-full'
           autoComplete='on'
           onChange={(e) => setEmail(e.target.value)}
           value={email}
+          required={true}
         />
         <input
           type={showPassword ? 'text' : 'password'}
@@ -86,12 +88,12 @@ export default function RegisterForm() {
         />
         {showPassword ? (
           <AiFillEyeInvisible
-            className='absolute right-3 top-[440px] sm:top-[620px] text-green-500 text-xl cursor-pointer'
+            className='absolute right-3 top-[440px] sm:top-[635px] text-green-500 text-xl cursor-pointer'
             onClick={() => setShowPassword((prevState) => !prevState)}
           />
         ) : (
           <AiFillEye
-            className='absolute right-3 top-[440px] sm:top-[620px] text-green-500 text-xl cursor-pointer'
+            className='absolute right-3 top-[440px] sm:top-[635px] text-green-500 text-xl cursor-pointer'
             onClick={() => setShowPassword((prevState) => !prevState)}
           />
         )}

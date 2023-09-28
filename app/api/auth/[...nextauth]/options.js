@@ -54,7 +54,7 @@ export const options = {
           const userExists = await User.findOne({ email })
 
           if (!userExists) {
-            const res = await fetch('http://localhost:3000/api/user', {
+            const res = await fetch(`${process.env.NEXTAUTH_URL}/api/user`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
