@@ -31,14 +31,18 @@ export default function Navbar() {
           <li className='hover:text-green-500 hidden sm:flex'>
             <Link href='/contact'>Contact</Link>
           </li>
-          {status === 'authenticated' ? (
-            <button onClick={() => signOut()}>Sign Out</button>
-          ) : (
-            <button onClick={() => signIn()}>Sign In</button>
-          )}
-          {session && (
+          {session ? (
             <li className='hover:text-green-500'>
               <Link href='/profile'>Profile</Link>
+            </li>
+          ) : (
+            <li className='hover:text-green-500'>
+              <Link href='/register'>Register</Link>
+            </li>
+          )}
+          {!session && (
+            <li className='hover:text-green-500'>
+              <Link href='/login'>Login</Link>
             </li>
           )}
         </ul>

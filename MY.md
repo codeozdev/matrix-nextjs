@@ -4,3 +4,5 @@ Mobil button kisminda bir linke gittikten sonra kapanmasi icin ayri bir onClick 
 Oturum kapadigimizda anasayfaya gitmeyi eklememiz lazim
 
 POST olaylarinda localhost3000 neden yaziyoruz bazen yazmiyoruz oluyor
+
+env secret sifrelerini vercele kaydetmemiz gerekiyor

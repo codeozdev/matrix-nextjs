@@ -2,6 +2,7 @@ import { getServerSession } from 'next-auth/next'
 import { options } from '@/app/api/auth/[...nextauth]/options'
 import { redirect } from 'next/navigation'
 import Image from 'next/image'
+import SignOut from '@/components/SignOut'
 
 export default async function Profile() {
   const sesion = await getServerSession(options)
@@ -18,10 +19,12 @@ export default async function Profile() {
           alt='img'
           width={500}
           height={500}
+          priority={true}
           className='object-cover w-[150px] h-[150px] rounded-full'
         />
         <h2>{sesion?.user?.name}</h2>
         <div className='sm:text-lg'>{sesion?.user?.email}</div>
+        <SignOut />
       </div>
     </div>
   )
