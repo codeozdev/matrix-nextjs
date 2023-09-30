@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <div className='w-full h-[calc(100vh-97px)] sm:h-[calc(100vh-77px)] sm:pb-32 flex flex-col'>
       <form
-        className='flex flex-col items-center justify-center gap-5 w-full h-full'
+        className='flex flex-col items-center justify-center h-full gap-3 w-full sm:w-1/3 mx-auto'
         onSubmit={handleSubmit}>
         <h1>Contact</h1>
         <input
@@ -60,7 +60,7 @@ export default function Contact() {
         <textarea
           rows='5'
           placeholder='Text Area'
-          className='resize-none outline-0 sm:font-bold placeholder-green-600 p-1 sm:p-3 border text-gray-700 w-full sm:w-1/4'
+          className='resize-none outline-0 sm:font-bold placeholder-green-600 p-1 sm:p-3 border text-gray-700 w-full'
           onChange={(e) => setMessage(e.target.value)}
           value={message}
         />
