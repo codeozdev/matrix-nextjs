@@ -24,7 +24,9 @@ export default function RegisterForm() {
     try {
       const resUserExists = await fetch('/api/userExists', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify({ email }),
       })
 
