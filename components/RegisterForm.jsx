@@ -56,49 +56,51 @@ export default function RegisterForm() {
   return (
     <div className='w-full h-[calc(100vh-97px)] sm:h-[calc(100vh-77px)] sm:pb-32 flex flex-col'>
       <form
-        className='flex flex-col items-center justify-center h-full gap-3 sm:w-1/3 mx-auto relative'
+        className='flex flex-col items-center justify-center h-full gap-3 sm:w-1/3 mx-auto'
         onSubmit={handleSubmit}>
         <h1>Register</h1>
-        <input
-          type='text'
-          placeholder='Full Name'
-          name='name'
-          className='w-full'
-          autoComplete='on'
-          onChange={(e) => setName(e.target.value)}
-          value={name}
-          required={true}
-        />
-        <input
-          type='email'
-          placeholder='Email'
-          name='email'
-          className='w-full'
-          autoComplete='on'
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
-          required={true}
-        />
-        <input
-          type={showPassword ? 'text' : 'password'}
-          placeholder='Password'
-          name='password'
-          className='w-full'
-          autoComplete='on'
-          onChange={(e) => setPassword(e.target.value)}
-          value={password}
-        />
-        {showPassword ? (
-          <AiFillEyeInvisible
-            className='absolute right-3 top-[440px] sm:top-[655px] text-green-500 text-xl cursor-pointer'
-            onClick={() => setShowPassword((prevState) => !prevState)}
+        <div className='relative w-full space-y-3 select-none'>
+          <input
+            type='text'
+            placeholder='Full Name'
+            name='name'
+            className='w-full'
+            autoComplete='on'
+            onChange={(e) => setName(e.target.value)}
+            value={name}
+            required={true}
           />
-        ) : (
-          <AiFillEye
-            className='absolute right-3 top-[440px] sm:top-[655px] text-green-500 text-xl cursor-pointer'
-            onClick={() => setShowPassword((prevState) => !prevState)}
+          <input
+            type='email'
+            placeholder='Email'
+            name='email'
+            className='w-full'
+            autoComplete='on'
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+            required={true}
           />
-        )}
+          <input
+            type={showPassword ? 'text' : 'password'}
+            placeholder='Password'
+            name='password'
+            className='w-full'
+            autoComplete='on'
+            onChange={(e) => setPassword(e.target.value)}
+            value={password}
+          />
+          {showPassword ? (
+            <AiFillEyeInvisible
+              className='absolute right-3 top-[88px] sm:top-32 text-green-500 text-xl cursor-pointer'
+              onClick={() => setShowPassword((prevState) => !prevState)}
+            />
+          ) : (
+            <AiFillEye
+              className='absolute right-3 top-[88px] sm:top-32 text-green-500 text-xl cursor-pointer'
+              onClick={() => setShowPassword((prevState) => !prevState)}
+            />
+          )}
+        </div>
         <button className='bg-green-600 text-white font-bold cursor-pointer px-6 py-2'>
           Register
         </button>

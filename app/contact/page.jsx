@@ -46,19 +46,21 @@ export default function Contact() {
         <input
           type='text'
           placeholder='Email'
+          className='w-full'
           onChange={(e) => setEmail(e.target.value)}
           value={email}
         />
         <input
           type='text'
           placeholder='Name'
+          className='w-full'
           onChange={(e) => setName(e.target.value)}
           value={name}
         />
         <textarea
           rows='5'
           placeholder='Text Area'
-          className='resize-none outline-0 sm:font-bold placeholder-green-600 p-1 sm:p-3 border text-gray-700 sm:w-1/4'
+          className='resize-none outline-0 sm:font-bold placeholder-green-600 p-1 sm:p-3 border text-gray-700 w-full sm:w-1/4'
           onChange={(e) => setMessage(e.target.value)}
           value={message}
         />

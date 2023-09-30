@@ -43,38 +43,40 @@ export default function LoginForm() {
   return (
     <div className='w-full h-[calc(100vh-97px)] sm:h-[calc(100vh-77px)] sm:pb-32 flex flex-col items-center'>
       <form
-        className='flex flex-col items-center justify-center h-full gap-3 sm:w-1/3 mx-auto relative'
+        className='flex flex-col items-center justify-center h-full gap-3 sm:w-1/3 mx-auto'
         onSubmit={handleSubmit}>
         <h1>Login</h1>
-        <input
-          type='text'
-          placeholder='Email'
-          name='email'
-          className='w-full'
-          autoComplete='on'
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
-        />
-        <input
-          type={showPassword ? 'text' : 'password'}
-          placeholder='Password'
-          name='password'
-          className='w-full relative'
-          autoComplete='on'
-          onChange={(e) => setPassword(e.target.value)}
-          value={password}
-        />
-        {showPassword ? (
-          <AiFillEyeInvisible
-            className='absolute right-3 top-[410px] sm:top-[620px] text-green-500 text-xl cursor-pointer'
-            onClick={() => setShowPassword((prevState) => !prevState)}
+        <div className='relative w-full space-y-3 select-none'>
+          <input
+            type='text'
+            placeholder='Email'
+            name='email'
+            className='w-full'
+            autoComplete='on'
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
           />
-        ) : (
-          <AiFillEye
-            className='absolute right-3 top-[410px] sm:top-[620px] text-green-500 text-xl cursor-pointer'
-            onClick={() => setShowPassword((prevState) => !prevState)}
+          <input
+            type={showPassword ? 'text' : 'password'}
+            placeholder='Password'
+            name='password'
+            className='w-full'
+            autoComplete='on'
+            onChange={(e) => setPassword(e.target.value)}
+            value={password}
           />
-        )}
+          {showPassword ? (
+            <AiFillEyeInvisible
+              className='absolute right-3 top-10 sm:top-16 text-green-500 text-xl cursor-pointer'
+              onClick={() => setShowPassword((prevState) => !prevState)}
+            />
+          ) : (
+            <AiFillEye
+              className='absolute right-3 top-10 sm:top-16 text-green-500 text-xl cursor-pointer'
+              onClick={() => setShowPassword((prevState) => !prevState)}
+            />
+          )}
+        </div>
         <div className='flex items-center'>
           <button
             className='bg-green-600 text-white font-bold cursor-pointer px-6 py-2'
